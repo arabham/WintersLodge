@@ -32,6 +32,15 @@
     <Folder Include="graphics\" />
     <Folder Include="audio\" />
     <Folder Include="font\" />
+    <Folder Include="map\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="map\map_Details.csv" />
+    <Content Include="map\map_Entities.csv" />
+    <Content Include="map\map_Floor.csv" />
+    <Content Include="map\map_FloorBlocks.csv" />
+    <Content Include="map\map_Grass.csv" />
+    <Content Include="map\map_LargeObjects.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
