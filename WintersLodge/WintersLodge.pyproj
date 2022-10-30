@@ -25,6 +25,7 @@
     <Compile Include="level.py" />
     <Compile Include="player.py" />
     <Compile Include="settings.py" />
+    <Compile Include="support.py" />
     <Compile Include="tile.py" />
     <Compile Include="WintersLodge.py" />
   </ItemGroup>
